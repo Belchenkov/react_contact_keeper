@@ -1,0 +1,16 @@
+{
+  "name": "react-contact-manager",
+  "version": "1.0.0",
+  "description": "Contact Manager App on MERN",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "MERN",
+    "React",
+    "Nodejs"
+  ],
+  "author": "Aleksey Belchenkov",
+  "license": "ISC"
+}
