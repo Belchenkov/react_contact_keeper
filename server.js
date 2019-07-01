@@ -1,8 +1,13 @@
 const express = require('express');
 
+const connectDB = require('./config/db');
+
 const app = express();
 
-app.get('/', (req, res) => res.send('Hello'));
+// Connect Database
+connectDB();
+
+app.get('/', (req, res) => res.json('ContactKeeper API ...'));
 
 // Define Routes
 app.use('/api/users', require('./routes/users'));
